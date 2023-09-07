@@ -21,5 +21,9 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftHTTP"
+    name: "SwiftHTTP",
+    platforms: [
+        .iOS(.v11), .tvOS(.v11), .macOS(.v10_13),
+    ],
 )
+
